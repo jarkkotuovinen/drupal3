@@ -1,0 +1,11 @@
+<?php
+
+
+
+function viesti_user_presave(&$edit, $account, $category){
+
+  
+    drupal_set_message(t('Teit muutoksia profiiliisi'));
+
+} 
+

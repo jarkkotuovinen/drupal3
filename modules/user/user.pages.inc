@@ -303,6 +303,8 @@ function user_profile_form_validate($form, &$form_state) {
 /**
  * Submit function for the user account and profile editing form.
  */
+
+
 function user_profile_form_submit($form, &$form_state) {
   $account = $form_state['user'];
   $category = $form['#user_category'];
@@ -331,7 +333,7 @@ function user_profile_form_submit($form, &$form_state) {
   // Clear the page cache because pages can contain usernames and/or profile information:
   cache_clear_all();
 
-  drupal_set_message(t('The changes have been saved.'));
+  drupal_set_message(t('The changes have been made.'));
 }
 
 /**

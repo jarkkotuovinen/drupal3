@@ -1,0 +1,4 @@
+name = Viesti Module
+description = Display a configurable welcome message when users...
+core = 7.x
+files[] = viesti.module
